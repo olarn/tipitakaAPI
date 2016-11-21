@@ -1,0 +1,19 @@
+{
+  "name": "nodeServer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "morgan": "*",
+    "serve-favicon": "*",
+    "debug": "*",
+    "pug": "*",
+    "sqlite3":"*",
+    "fs":"~0.0.2"
+  }
+}

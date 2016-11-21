@@ -1,0 +1,85 @@
+extends layout
+
+block content
+
+  h1= title
+  p Welcome to #{title}
+  
+  h3 Thai Tipitaka API
+  ul
+    li
+      a(href="./thai/api") api
+    li
+      a(href="./thai/summary/totalVolumes") get total volumes
+    li
+      a(href="./thai/summary/totalPages?volume=01") get total pages
+    li
+      a(href="./thai/content?volume=01&page=0001") get content
+
+  h3 พระไตรปิฎกภาษาไทย ฉบับมหาจุฬาลงกรณราชวิทยาลัย API
+  ul
+    li
+      a(href="./thaimc/api") api
+    li
+      a(href="./thaimc/summary/totalVolumes") get total volumes
+    li
+      a(href="./thaimc/summary/totalPages?volume=01") get total pages
+    li
+      a(href="./thaimc/content?volume=01&page=0001") get content
+
+  h3 พระไตรปิฎก มหามกุฏราชวิทยาลัย API
+  ul
+    li
+      a(href="./thaimm/api") api
+    li
+      a(href="./thaimm/summary/totalVolumes") get total volumes
+    li
+      a(href="./thaimm/summary/totalPages?volume=01") get total pages
+    li
+      a(href="./thaimm/content?volume=01&page=0001") get content
+
+  h3 พระไตรปิฎก ภาษาบาลี ฉบับสยามรัฐ API
+  ul
+    li
+      a(href="./pali/api") api
+    li
+      a(href="./pali/summary/totalVolumes") get total volumes
+    li
+      a(href="./pali/summary/totalPages?volume=01") get total pages
+    li
+      a(href="./pali/content?volume=01&page=0001") get content
+
+  h3 ขุมทรัพย์จากพระโอษฐ์ API
+  ul
+    li
+      a(href="./thaibt/api") api
+    li
+      a(href="./thaibt/summary/totalVolumes") get total volumes
+    li
+      a(href="./thaibt/summary/totalPages?volume=1") get total pages
+    li
+      a(href="./thaibt/content?volume=1&page=1") get content
+
+  h3 Roman Tipitaka Mahajula API
+  ul
+    li
+      a(href="./romanct/api") api
+    li
+      a(href="./romanct/summary/totalVolumes") get total volumes
+    li
+      a(href="./romanct/summary/totalPages?volume=01") get total pages
+    li
+      a(href="./romanct/content?volume=01&page=0001") get content
+
+  h3 Dictionary API
+  ul
+    li
+      a(href="./dict/thai2thai/ทดสอบ") Thai to Thai
+    li
+      a(href="./dict/pali2thai/กมฺมวา") Pali to Thai
+    li
+      a(href="./dict/thai2pali/พ้นทุกข์") ภาษาบาลีที่เกี่ยวข้องกับคำที่ค้นหา
+    li
+      a(href="./dict/pali2eng/abbh") Pali to Eng
+    li
+      a(href="./dict/eng2pali/suffering") Eng to Pali
