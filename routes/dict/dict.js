@@ -42,7 +42,7 @@ router.get('/thai2thai/:search', function(req, res, next) {
             })
           }
         }, function() {
-          res.json(contents);                        
+          res.json(contents);
           db.close();
         });
       
@@ -85,7 +85,7 @@ router.get('/thai2thai/:search', function(req, res, next) {
             })
           }
         }, function() {
-          res.json(contents);                        
+          res.json(contents);
           db.close();
         });
       

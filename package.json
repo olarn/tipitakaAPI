@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha tests --recursive"
   },
   "dependencies": {
     "express": "*",
@@ -13,7 +14,11 @@
     "serve-favicon": "*",
     "debug": "*",
     "pug": "*",
-    "sqlite3":"*",
-    "fs":"~0.0.2"
+    "sqlite3": "*",
+    "fs": "~0.0.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
